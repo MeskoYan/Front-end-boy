@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <!--POST para coisas confidenciais, GET para coisas mundanas-->
+    <form action="index.php" method="POST" enctype="multipart/form-data">
+        <label for="usuário">Usuário:</label>
+        <input type="Texto" id="usuário" placeholder="Nome de usuário" minlength="3" maxlength="20">
+        <br>
+        <label for="Senha">Senha:</label>
+        <input type="password" id="Senha" placeholder="Senha" minlength="8">
+        <br>
+        <label for="Email">Email:</label>
+        <input type="email" id="Email" placeholder="youremail@gmail.com">
+        <br>
+        <label type="phone">Telefone:</label>
+        <input type="tel" id="phone" placeholder="5399999-9999" pattern="[0-9]{7}-[0-9]{4}">
+        <br>
+        <label for="bday">Aniversário:</label>
+        <input type="date" id="bday">
+        <br>
+        <label for="qtd"> Quantidade</label>
+        <input type="number" id="qtd" min="0" max="99" default="0">
+        <br>
+        <label for="genero">Gênero:</label>
+        <input type="radio" id="M" name="genero">
+        <label for="M"> Masculino</label>
+        <input type="radio" id="F" name="genero">
+        <label for="F"> Feminino</label>
+        <input type="radio" id="O" name="genero">
+        <label for="O"> Outro</label>
+        <br>
+        <label for="pagar">Pagamento</label>
+        <select id="pagar">
+            <option value="Visa">Visa</option>
+            <option value="Mastercard">Mastercard</option>
+            <option value="Cartão presente">Cartão presente</option>
+        </select>
+        <br>
+        <label for="inscrever">Inscrever:</label>
+        <input type="checkbox" id="inscrever">
+        <br>
+        <label for="comentario">Comentario</label>
+        <textarea id="comentario" rows="3" cols="25"></textarea>
+        <br>
+        <label for="file">Arquivo</label>
+        <input type="file" id="file" accept="application/pdf, image/png">
+        <br>
+        <input type="submit">
+        <br>
+        <input type="reset">
+    </form>
+</body>
+</html>
