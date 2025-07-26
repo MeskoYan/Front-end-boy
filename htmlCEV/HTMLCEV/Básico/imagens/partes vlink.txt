@@ -1,3 +1,0 @@
-MB = IHM
-drive = precision
-encoder

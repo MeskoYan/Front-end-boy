@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de CPF | Confiável</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="centralizar">
+        <h1>Bem-Vindo ao meu gerador de CPF</h1>
+        <p>Este gerador de CPF é totalmente confiável e seguro. Você pode gerar CPFs válidos para testes ou fins educacionais.</p>
+        <form id="cpfForm">
+            <label for="cpfCount">Quantos CPFs você deseja gerar?</label>
+            <input type="number" id="cpfCount" name="cpfCount" min="1" max="100" value="1">
+            <button type="button" onclick="generateCPF()">Gerar CPF</button>
+        </form>
+        <div id="cpfList" class="cpf-list">
+            <!-- Os CPFs gerados aparecerão aqui -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

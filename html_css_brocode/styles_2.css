@@ -1,0 +1,57 @@
+@font-face {
+    font-family: bitcount;
+    src: url("/Bitcount_Prop_Single/BitcountPropSingle-VariableFont_CRSV\,ELSH\,ELXP\,slnt\,wght.ttf");
+}
+#header{
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    text-align: center;
+}
+#footer{
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    text-align: center;
+    alignment-baseline: central;
+    
+}
+.footer{
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    text-align: center;
+    alignment-baseline: central;
+}
+h1{
+    color: #ffffff;
+    font-family: bitcount;
+}
+body{
+    background-color: rgb(41, 41, 41);
+    background: radial-gradient(#333333, #161616);
+}
+.paragrafos{
+    color: #ffffff;
+    font-family: "Inter";
+    font-size: larger;
+}
+#voltar{
+    background-color: #161616;
+    color: #ffffff;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+    font-family: bitcount;
+}
+#p1{ 
+    columns: 150px;
+}
+#p2{
+    columns: 150px;
+}
+#p3{
+    columns: 150px;
+}
+#p4{
+    columns: 150px;
+}

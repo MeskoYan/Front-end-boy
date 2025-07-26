@@ -22,7 +22,22 @@ body{
 }
 .centraliza{
     text-align: center;
-    display: flex;
+    display: flexbox;
     align-items: center;
+    background-color: #000;
+    color: #fff;
     
+}
+.imagem
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+#html{
+    background-color: #000;
+}
+#html2{
+    background-color: #5e5e5e;
 }

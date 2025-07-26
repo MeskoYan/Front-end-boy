@@ -1,6 +1,6 @@
 function pix(){
 alert("Pix feito com sucesso");
-esperar()
+esperar();
 }
 function esperar(){
     setTimeout(2);
